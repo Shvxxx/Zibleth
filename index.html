@@ -3,43 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Toko Online</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="video.mp4" type="video/mp4">
+            Browser Anda tidak mendukung video.
+        </video>
+    </div>
     <header>
-        <h1>Toko Online Saya</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#">Produk</a></li>
-                <li><a href="#">Kontak</a></li>
-            </ul>
-        </nav>
+        <h1>Selamat Datang di Toko Online Kami</h1>
+        <button class="menu-button">Menu</button>
     </header>
-
     <main>
-        <section class="produk">
-            <h2>Produk Terbaru</h2>
-            <div class="card">
-                <img src="gambar-produk1.jpg" alt="Produk 1">
-                <h3>Nama Produk 1</h3>
-                <p>Deskripsi singkat produk 1.</p>
-                <p>Harga: Rp 100.000</p>
-                <button>Beli Sekarang</button>
-            </div>
-            <div class="card">
-                <img src="gambar-produk2.jpg" alt="Produk 2">
-                <h3>Nama Produk 2</h3>
-                <p>Deskripsi singkat produk 2.</p>
-                <p>Harga: Rp 150.000</p>
-                <button>Beli Sekarang</button>
-            </div>
+        <section class="products">
+            <h2>Produk Kami</h2>
+            <div class="product-card">Produk 1</div>
+            <div class="product-card">Produk 2</div>
+            <div class="product-card">Produk 3</div>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2024 Toko Online Saya</p>
+        <p>Hak Cipta © 2024 Toko Online</p>
     </footer>
 </body>
 </html>
