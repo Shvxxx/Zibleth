@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            color: white; /* Warna teks putih untuk kontras */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url('https://pomf2.lain.la/f/4l6aopxm.jpeg') no-repeat center center fixed; /* Wallpaper penuh */
+            background-size: cover; /* Menutupi seluruh area */
+        }
+
+        .content {
+            text-align: center;
+            margin-bottom: 20px;
+            z-index: 1; /* Menempatkan teks di atas latar belakang */
+            position: relative;
+        }
+
+        .content h1 {
+            font-size: 48px;
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan untuk teks */
+            border-radius: 10px;
+        }
+
+        /* Navigasi Button */
+        .nav-buttons {
+            display: flex;
+            flex-direction: column; /* Mengatur tombol agar berjejer ke bawah */
+            align-items: center;
+            z-index: 1; /* Menempatkan tombol di atas latar belakang */
+        }
+
+        .nav-buttons a {
+            color: white;
+            background-color: #4CAF50; /* Warna hijau untuk tombol */
+            font-size: 18px;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            margin: 10px 0; /* Jarak antar tombol */
+            transition: background-color 0.3s;
+            width: 200px; /* Lebar tombol */
+            text-align: center; /* Teks di tengah */
+        }
+
+        .nav-buttons a:hover {
+            background-color: #45a049; /* Efek hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Content -->
+    <div class="content">
+        <h1>FSLSTORE</h1>
+        <p>TERSEDIA PAYMENT OTOMATIS</p>
+        <p>SILAHKAN TEKAN TOMBOL DIBAWAH</p>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons">
+        <a href="ewallet.html">E-WALLET</a>
+        <a href="dropship.html">DROPSHIPER</a>
+        <a href="mbangking.html">M-BANGKING</a>
+        <a href="qris.html">QR ALLPAY</a>
+    </div>
+
+        <!-- Footer -->
+    <div class="footer">
+    <h2>WARNING</h2>
+    <br>© POWERD BY FSLSTORE</p>
+</div>
+</body>
+</html>
+
