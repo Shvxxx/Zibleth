@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Online - VPS & Panel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.unsplash.com/photo-1501973801540-537f08ccae7b');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+        }
+
+        .header {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .product-card {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 15px;
+            width: 300px;
+            text-align: center;
+            color: white;
+        }
+
+        .product-card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .product-card h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .product-card p {
+            font-size: 16px;
+            color: #ccc;
+        }
+
+        .product-card button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px 0;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .product-card button:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer with images */
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 100%;
+        }
+
+        .footer img {
+            width: 50px;
+            margin: 0 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Selamat Datang di Toko Online VPS & Panel</h1>
+        <p>Temukan layanan VPS dan Panel terbaik di sini!</p>
+    </div>
+
+    <!-- Products Section -->
+    <div class="products">
+        <!-- VPS Ubuntu -->
+        <div class="product-card">
+            <a href="https://ibb.co.com/5Lm3RQR">
+                <img src="https://i.ibb.co.com/89qw7y7/20241004-074949.jpg" alt="VPS Ubuntu">
+            </a>
+            <h2>VPS Ubuntu</h2>
+            <p>VPS berkinerja tinggi dengan Ubuntu untuk kebutuhan server Anda.</p>
+            <button onclick="window.location.href='https://api.whatsapp.com/send?phone=6289667644225&text=Saya%20ingin%20memesan%20VPS%20Ubuntu'">Beli Sekarang</button>
+            <button>Detail Produk</button>
+        </div>
+
+        <!-- Panel Pterodactyl -->
+        <div class="product-card">
+            <img src="https://telegra.ph/file/5b39e2b98b91827a92dbe.jpg" alt="Panel Pterodactyl">
+            <h2>Panel Pterodactyl</h2>
+            <p>Panel Pterodactyl untuk manajemen server game yang mudah dan efisien.</p>
+            <button>Beli Sekarang</button>
+            <button>Detail Produk</button>
+        </div>
+
+        <!-- Produk Lain -->
+        <div class="product-card">
+            <img src="https://telegra.ph/file/3d19cf91e3e4d5fb176b2.jpg" alt="Layanan Tambahan">
+            <h2>Layanan Tambahan</h2>
+            <p>Layanan tambahan seperti backup dan pemeliharaan server secara berkala.</p>
+            <button>Beli Sekarang</button>
+            <button>Detail Produk</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Terima kasih telah berkunjung ke toko kami!</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/OpenAI_Logo.svg" alt="ChatGPT">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+    </div>
+
+</body>
+</html>

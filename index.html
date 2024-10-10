@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            color: white; /* Warna teks putih untuk kontras */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc5M3wwfDF8c2VhcmNofDJ8fGphcGFufGVufDB8fHx8MTY5MzA5NzU5Ng&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed; /* Wallpaper penuh */
+            background-size: cover; /* Menutupi seluruh area */
+        }
+
+        .content {
+            text-align: center;
+            margin-bottom: 20px;
+            z-index: 1; /* Menempatkan teks di atas latar belakang */
+            position: relative;
+        }
+
+        .content h1 {
+            font-size: 48px;
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan untuk teks */
+            border-radius: 10px;
+        }
+
+        /* Navigasi Button */
+        .nav-buttons {
+            display: flex;
+            flex-direction: column; /* Mengatur tombol agar berjejer ke bawah */
+            align-items: center;
+            z-index: 1; /* Menempatkan tombol di atas latar belakang */
+        }
+
+        .nav-buttons a {
+            color: white;
+            background-color: #4CAF50; /* Warna hijau untuk tombol */
+            font-size: 18px;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            margin: 10px 0; /* Jarak antar tombol */
+            transition: background-color 0.3s;
+            width: 200px; /* Lebar tombol */
+            text-align: center; /* Teks di tengah */
+        }
+
+        .nav-buttons a:hover {
+            background-color: #45a049; /* Efek hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Content -->
+    <div class="content">
+        <h1>Welcome to My Online Store</h1>
+        <p>Enjoy shopping with us!</p>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons">
+        <a href="home.html">Produc</a>
+        <a href="about.html">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+</body>
+</html>
